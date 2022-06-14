@@ -99,7 +99,7 @@
 
 
 <!-- ------------------Modal window -->
-<button class="modal-window-button" data-open-model>Open a chest</button>
+<button class="modal-window-button" data-open-modal>Open a chest</button>
 
 <div class="backgrop is-hidden" data-backdrop>
   <div class="modal">
@@ -112,18 +112,18 @@
 
 <script>
   const refs = {
-  openModalBtn: document.querySelector('[data-open-model]'),
-  closeModalBtn: document.querySelector('[data-close-modal]'),
-  modal: document.querySelector('[data-backdrop]'),
+  openModalBtn: document.querySelector("[data-open-modal]"),
+  closeModalBtn: document.querySelector("[data-close-modal]"),
+  modal: document.querySelector("[data-backdrop]"),
       };
 
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
+  refs.openModalBtn.addEventListener("click", toggleModal);
+  refs.closeModalBtn.addEventListener("click", toggleModal);
 
-  refs.backdrop.addEventListener('click', logBackdropClick);
+  refs.backdrop.addEventListener("click", logBackdropClick);
 
   function toggleModal() {
-  refs.backdrop.classList.toggle('is-hidden');
+  refs.backdrop.classList.toggle("is-hidden");
       }
   function logBackdropClick() {
     console.log ("Это клик в бекдроп");
