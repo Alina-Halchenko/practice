@@ -280,7 +280,7 @@ body {
   position: relative;
   display: block;
 
-  background-color: blue;
+  background-color: pink;
   padding: 14px 35px;
   min-width: 176px;
   height: 44px;
@@ -297,6 +297,8 @@ body {
 
   display: flex;
   align-items: center;
+
+  margin-bottom: 20px;
 }
 
   .about__icon {
