@@ -273,3 +273,35 @@ body {
 
   background-color: beige;
 }
+
+/* testing svg */
+
+.about__button {
+  position: relative;
+  display: block;
+
+  background-color: blue;
+  padding: 14px 35px;
+  min-width: 176px;
+  height: 44px;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: yellow;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.28;
+  border: 0;
+  border-radius: 22px;
+  text-align: left;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+}
+
+  .about__icon {
+    position: absolute;
+    top: 19px;
+    right: 38px;
+    border: 2px solid yellow;
+  }
